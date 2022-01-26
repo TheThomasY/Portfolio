@@ -21,9 +21,9 @@ export default function Home() {
   const sections = ['home', 'work', 'contact'];
   const [currentSection, setCurrentSection] = useState(sections[0]);
 
-  const homeRef = useRef(null);
-  const workRef = useRef(null);
-  const contactRef = useRef(null);
+  const homeRef = useRef<HTMLDivElement>(null);
+  const workRef = useRef<HTMLDivElement>(null);
+  const contactRef = useRef<HTMLDivElement>(null);
 
   function scrollHandler() {
     setSectionPositions([
