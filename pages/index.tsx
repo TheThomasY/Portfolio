@@ -6,6 +6,7 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Projects from '../components/Projects';
 import Footer from '../components/Footer';
+import SideMenu from '../components/SideMenu';
 
 
 
@@ -18,6 +19,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <Hero />
+      <SideMenu />
       <Projects />
       <Footer />
     </div>
