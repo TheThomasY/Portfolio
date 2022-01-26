@@ -12,8 +12,6 @@ import Footer from '../components/Footer';
 import SideMenu from '../components/SideMenu';
 
 
-
-
 export default function Home() {
   // Array containing absolute Y position of home, work and contact sections respectively from the top of the view window.
   const [sectionPositions, setSectionPositions] = useState([0, 0, 0]);

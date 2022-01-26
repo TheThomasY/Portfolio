@@ -1,3 +1,6 @@
+// React
+import React from 'react'
+
 export default function SideMenu(props) {
   return (
     <nav className="fixed top-[40%] left-[2%] z-50 hidden lg:block lg:w-4">
