@@ -1,4 +1,7 @@
+// React
 import React from 'react'
+
+// React Icons
 import { AiOutlineEye } from 'react-icons/ai'
 
 export default function Hero() {

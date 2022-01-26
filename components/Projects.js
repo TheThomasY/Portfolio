@@ -5,6 +5,7 @@ import { React, useEffect } from 'react'
 import ProjectCard from './ProjectCard'
 
 export default function Projects() {
+  // Not ideal solution. Need to investigate CMS to replace this.
   const projects = [
     {
       title: 'Social Media Dashboard',
