@@ -26,11 +26,13 @@ export default function Home() {
   const contactRef = useRef<HTMLDivElement>(null);
 
   function scrollHandler() {
-    setSectionPositions([
-      Math.abs(homeRef.current.getBoundingClientRect().top),
-      Math.abs(workRef.current.getBoundingClientRect().top),
-      Math.abs(contactRef.current.getBoundingClientRect().top),
-    ]);
+    if (homeRef.current !== null && workRef.current !== null && contactRef.current !== null) {
+      setSectionPositions([
+        Math.abs(homeRef.current.getBoundingClientRect().top),
+        Math.abs(workRef.current.getBoundingClientRect().top),
+        Math.abs(contactRef.current.getBoundingClientRect().top),
+      ]);
+    }
 
     setCurrentSection(
       sections[sectionPositions.indexOf(Math.min(...sectionPositions))]
