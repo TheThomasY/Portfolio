@@ -4,6 +4,8 @@ import Head from 'next/head'
 // Components
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
+import Projects from '../components/Projects';
+
 
 
 export default function Home() {
@@ -14,6 +16,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <Hero />
+      <Projects />
     </div>
   )
 }
