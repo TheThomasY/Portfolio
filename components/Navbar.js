@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-// import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
+import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 
 export default function Navbar() {
   const [showNav, setShowNav] = useState(false)
@@ -19,11 +19,11 @@ export default function Navbar() {
         <div className="text-lg font-bold">Tom Young</div>
         <div className="flex md:hidden">
           <button onClick={toggleNavHandler} className="z-50">
-            {/* {showNav ? (
+            {showNav ? (
               <AiOutlineClose size={'25px'} className="block" />
             ) : (
               <AiOutlineMenu size={'25px'} className="block" />
-            )} */}
+            )}
           </button>
         </div>
         <div
