@@ -1,3 +1,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.secondary-title {
+  @apply text-3xl font-bold;
+}
+
+.secondary-title::before {
+  content: '';
+  @apply mb-1 block h-2 w-12 rounded-full bg-theme;
+}
+
+.section-paragraph {
+  @apply my-6 w-full max-w-3xl text-secondary;
+}
+
+.tooltip {
+  @apply absolute
+  -mt-20 -ml-3 origin-bottom scale-0
+  rounded border
+  border-gray-200 bg-gray-100 p-1 text-black shadow-lg transition-all duration-100;
+}
+
+.has-tooltip:hover .tooltip {
+  @apply z-50 scale-100;
+}
+
+.nav-dot {
+  transition: background 200ms, border-color 200ms;
+}
+
+.nav-dot {
+  @apply h-7 w-7 rounded-full border-4 border-nav bg-body;
+}
+
+.selected-circle {
+  @apply border-theme bg-theme;
+}
+
+.nav-dot:hover span {
+  opacity: 1;
+}
