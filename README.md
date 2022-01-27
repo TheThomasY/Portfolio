@@ -1,10 +1,16 @@
 <h1 align="center">My Portfolio</h1>
 
-This is version 1.0 of my portfolio, built with Next.js and styled with Tailwind CSS. It presents 4 of my other projects in a fully responsive website. 
+This is version 1.0 of my portfolio, built with Next.js and styled with Tailwind CSS. It presents 4 of my other projects in a fully responsive website.
 
 ## Links 🌟
 
 - Live site: [Try it out here 💻](https://tom-young-portfolio.vercel.app/ 'Live Site')
+
+## Screenshots 📷
+
+<p float="left">
+  <img src="./screenshots/screenshot-GIF-desktop.gif">
+</p>
 
 ## Built With 🛠
 
