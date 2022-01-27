@@ -8,36 +8,37 @@ export default function Projects() {
   // Not ideal solution. Need to investigate CMS to replace this.
   const projects = [
     {
-      title: 'Social Media Dashboard',
+      title: 'Restaurant Tip Calculator',
       description:
-        'A dashboard UI designed to present social media follower metrics.',
-      tech: 'React Tailwind',
-      github: 'https://github.com/TheThomasY/social-media-dashboard',
-      link: 'https://thethomasy.github.io/social-media-dashboard/',
+        'This site makes splitting a bill much easier. Simply enter the total bill amount, tip percentage and number of people - this will calculate the required tip per person and also the total each person owes.',
+      tech: 'React SCSS',
+      github: 'https://github.com/TheThomasY/React-Tip-Calculator',
+      link: 'https://thethomasy.github.io/React-Tip-Calculator/',
     },
     {
       title: 'IP Address Tracker',
       description:
-        'Website allowing users to locate an IP address from anywhere in the world and see an interactive map corresponding to its location.',
+        'Enter an IP address from anywhere in the world and see an interactive map corresponding to its location. Need an example address? Try 8.8.8.8 or 17.0.0.0 for two famous tech companies.',
       tech: 'React SCSS',
       github: 'https://github.com/TheThomasY/IP-Address-Tracker',
       link: 'https://thethomasy.github.io/IP-Address-Tracker/',
     },
     {
-      title: 'Rock Paper Scissors',
+      title: 'Social Media Dashboard',
       description:
-        'Website allowing you to play the classic Rock Paper Scissors against the computer.',
-      tech: 'React SCSS',
-      github: 'https://github.com/TheThomasY/rock-paper-scissors',
-      link: 'https://thethomasy.github.io/rock-paper-scissors/',
+        'An example of dashboard UI designed to present social media follower metrics. It has a toggle that allows you to switch between light and dark mode.',
+      tech: 'React Tailwind',
+      github: 'https://github.com/TheThomasY/social-media-dashboard',
+      link: 'https://thethomasy.github.io/social-media-dashboard/',
     },
+
     {
-      title: 'Restaurant Tip Calculator',
+      title: 'Loopstudios Landing Page',
       description:
-        'Website that calculates the tip for a given bill. You can pick the tip percentage and how many people are splitting it.',
-      tech: 'React SCSS',
-      github: 'https://github.com/TheThomasY/React-Tip-Calculator',
-      link: 'https://thethomasy.github.io/React-Tip-Calculator/',
+        'An example of a company landing page. The site is fully responsive, looks great at all screen widths, and includes some subtle and clean animation.',
+      tech: 'HTML SCSS',
+      github: 'https://github.com/TheThomasY/Loopstudios-Landing-Page',
+      link: 'https://thethomasy.github.io/Loopstudios-Landing-Page/',
     },
   ]
 
