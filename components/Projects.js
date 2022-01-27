@@ -42,7 +42,7 @@ export default function Projects() {
   ]
 
   return (
-    <div className="container -z-0 mx-auto mt-16 w-full px-8 md:mt-32 md:px-14 lg:px-36 xl:mt-64">
+    <div className="container -z-0 mx-auto mt-24 w-full px-8 md:mt-32 md:px-14 lg:px-36 xl:mt-64">
       <section className="w-full">
         <h2 id="work" className="secondary-title scroll-m-5">
           My Work
