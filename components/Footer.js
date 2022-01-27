@@ -14,7 +14,7 @@ export default function Footer() {
     <div className="container mx-auto mt-16 w-full px-8 md:mt-32 md:px-14 lg:mt-32 lg:px-36">
       <section className="w-full">
         <h2 id="contact" className="secondary-title">
-          Hire Me
+          Contact Me
         </h2>
         <div className="md:grid md:grid-cols-2 md:gap-x-10">
           <div>
