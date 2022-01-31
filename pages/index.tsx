@@ -50,6 +50,7 @@ export default function Home() {
     <div className="min-h-screen bg-body text-white pb-24">
       <Head>
         <title>Tom Young</title>
+        <meta name="title" property="og:title" content="Tom Young Portfolio"></meta>   
         <meta name="description" property="og:description" content="Front End Developer Portfolio, built with Next.js and Tailwind CSS, based in London"></meta>
         <meta name="author" content="Tom Young"></meta>
       </Head>
