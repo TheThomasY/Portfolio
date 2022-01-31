@@ -52,6 +52,7 @@ export default function Home() {
         <title>Tom Young</title>
         <meta name="title" property="og:title" content="Tom Young's Portfolio"></meta>   
         <meta name="description" property="og:description" content="Front End Developer Portfolio, built with Next.js and Tailwind CSS, based in London"></meta>
+        <meta name="image" property="og:image" content="https://github.com/TheThomasY/portfolio/blob/main/screenshots/meta-img.png"></meta>
         <meta name="author" content="Tom Young"></meta>
       </Head>
       <Navbar />
