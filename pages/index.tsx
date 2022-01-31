@@ -51,6 +51,7 @@ export default function Home() {
       <Head>
         <title>Tom Young</title>
         <meta name="description" property="og:description" content="Front End Developer Portfolio, built with Next.js and Tailwind CSS, based in London"></meta>
+        <meta name="author" content="Tom Young"></meta>
       </Head>
       <Navbar />
       <div ref={homeRef}></div>
